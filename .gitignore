@@ -1,0 +1,24 @@
+# Directorios de módulos o dependencias
+node_modules/
+vendor/
+target/ # Para proyectos Java/Maven
+
+# Archivos de configuración y entorno
+.env
+.DS_Store # Archivos de macOS
+Thumbs.db # Archivos de Windows
+
+# Archivos de log
+*.log
+logs/
+
+# Archivos compilados o temporales
+*.pyc
+__pycache__/
+build/
+dist/
+
+# Archivos específicos de tu IDE (ejemplos)
+.idea/ # Directorio de IntelliJ/WebStorm
+.vscode/ # Directorio de VS Code
+*.iml # Archivos de IntelliJ
