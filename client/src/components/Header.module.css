@@ -1,0 +1,15 @@
+/* client/src/components/Header.module.css */
+
+/* Estilos para el contenedor principal de la cabecera (<header>). */
+/* Lo llamamos headerContainer, pero recuerda que CSS Modules lo hará único. */
+.headerContainer {
+  background-color: #282c34; /* Fondo gris oscuro, común en muchos sitios */
+  padding: 1rem 2rem;       /* Espacio interno alrededor del contenido:
+                                1 unidad (rem) arriba y abajo,
+                             2 unidades (rem) a la izquierda y derecha. */
+  color: white;             /* Color de texto por defecto dentro de este contenedor */
+  display: flex;            /* Usa Flexbox para organizar sus elementos internos (h1 y nav) */
+  justify-content: space-between; /* Distribuye el espacio: h1 a la izquierda, nav a la derecha */
+  align-items: center;      /* Centra los elementos verticalmente en el medio del header */
+  border-bottom: 2px solid #61dafb; /* Una línea azul clara en la parte inferior, como un separador */
+}

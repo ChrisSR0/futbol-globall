@@ -1,3 +1,4 @@
+import Header from  './components/Header';
 // App.tsx
 // Este es el componente principal de nuestra aplicación React.
 
@@ -7,9 +8,18 @@
 function App(){
 // El "return" contiene el JSX (HTML-like) que React va a renderizar.
   return(
+    
     <div>
-      {/* Un simple encabezado para indicar que la limpieza fue exitosa */}
-      <h1>Hola, Futbol globall</h1>
+      {/* Un <div> simple como contenedor principal.*/}
+
+      {/* Aquí es donde "montamos" o "renderizamos" nuestro componente Header.
+          Se usa como si fuera una etiqueta HTML personalizada. */}
+      <Header />
+      
+      {/* El elemento <main> es semántico para el contenido principal de la página. */}
+      <main>
+        <p>Bienvenido a tu agregador de deportes, futbol globall.</p>
+      </main>
     </div>
   );
 }
